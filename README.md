@@ -126,7 +126,7 @@ It matches exactly with what we found using the Regex 101 tool!
 Time to break down what is happening now:
 
 - Create and compile a regex pattern called `regexPattern`.
-- Create a `Matcher` object by calling the `Patrern` class' `matcher()` method,
+- Create a `Matcher` object by calling the `Pattern` class' `matcher()` method,
   and provide it the test string we put into Regex 101.
 - Create a `while` loop with the conditional being `matcher.find()`.
   - The `find()` method attempts to find the next subsequence in the input
